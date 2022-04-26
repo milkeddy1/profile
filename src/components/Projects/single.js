@@ -7,7 +7,7 @@ function Single({ title, description, link }) {
     card.style.marginTop = "0";
     console.log(card.style.marginTop);
   }
-
+  var a = 1;
   return (
     <div className="m-5">
       <div>

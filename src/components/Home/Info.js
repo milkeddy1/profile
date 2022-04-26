@@ -1,10 +1,11 @@
 import React from "react";
 import { BsArrowReturnRight } from "react-icons/bs";
+import "./info.css";
 
 function Info() {
   return (
-    <div className=" w-full  md:w-3/5 lg:mt-16 ">
-      <h1 className="text-3xl mt-20 text-gray-700 font-global-font mb-10 sm:mt-0 ">
+    <div className=" w-full md:w-2/5 lg:mt-16 ">
+      <h1 className="typing text-3xl mt-20 text-gray-700 font-global-font mb-5 sm:mt-0 ">
         Hi, 我是廖嘉偉
       </h1>
       <h2 className="text-2xl text-gray-400 font-global-font">

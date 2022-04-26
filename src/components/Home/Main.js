@@ -5,7 +5,7 @@ import Picture from "./Picture";
 
 function Main() {
   return (
-    <div>
+    <div className="">
       <div className=" w-9/12 m-auto  justify-around hidden lg:flex pb-10">
         <Icons />
         <Info />

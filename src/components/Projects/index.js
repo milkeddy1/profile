@@ -4,9 +4,9 @@ import Single from "./single";
 function Projects() {
   const projects = [
     {
-      title: "Snake game (2021/12)",
-      description: "利用原生Javascript製作的貪吃蛇遊戲，並提供難度的選擇",
-      link: "https://clever-meninsky-48dbc0.netlify.app/",
+      title: "Twitch直播平台API串接 (2022/2)",
+      description: "透過twitch的api文件，呈現各種直播主的網頁",
+      link: "https://dreamy-leavitt-9706f4.netlify.app/",
     },
     {
       title: "Todolist (2022/1)",
@@ -20,10 +20,9 @@ function Projects() {
       link: "https://infallible-mestorf-c97f69.netlify.app",
     },
     {
-      title: "飯店重置網站 (2021/6 - 2021/7)",
-      description:
-        "這是結訓前做的飯店網站重置的作品是用HTML, CSS, jQuery完成的",
-      link: "https://adoring-newton-776ac0.netlify.app",
+      title: "登入留言系統 (2022/3 - 2022/4)",
+      description: "使用Node, mongoDB串接後端資料庫的登入系統",
+      link: "http://eddy-login-blog.herokuapp.com/",
     },
   ];
 

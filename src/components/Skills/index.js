@@ -17,7 +17,7 @@ function Skills() {
       <h1 className="p-10 text-4xl text-center">Skills</h1>
       <div>
         <div className="text-center">HTML</div>
-        <div className="my-5 relative bg-gray-500 w-3/4 h-8 m-auto rounded-lg">
+        <div className="my-3 relative bg-gray-500 w-2/4 h-4 m-auto rounded-lg">
           <div
             className={`absolute h-full bg-orange-300 rounded-lg ${
               scrollPosition ? "animate-[progress80_3s_forwards]" : ""
@@ -27,7 +27,7 @@ function Skills() {
       </div>
       <div>
         <div className="text-center">CSS</div>
-        <div className="my-5 relative bg-gray-500 w-3/4 h-8 m-auto rounded-lg">
+        <div className="my-3 relative bg-gray-500 w-2/4 h-4 m-auto rounded-lg">
           <div
             className={`absolute h-full bg-orange-300 rounded-lg ${
               scrollPosition ? "animate-[progress70_3s_forwards]" : ""
@@ -37,7 +37,7 @@ function Skills() {
       </div>
       <div>
         <div className="text-center">jQuery</div>
-        <div className="my-5 relative bg-gray-500 w-3/4 h-8 m-auto rounded-lg">
+        <div className="my-3 relative bg-gray-500 w-2/4 h-4 m-auto rounded-lg">
           <div
             className={`absolute h-full bg-orange-300 rounded-lg ${
               scrollPosition ? "animate-[progress60_3s_forwards]" : ""
@@ -47,7 +47,7 @@ function Skills() {
       </div>
       <div>
         <div className="text-center">JavaScript</div>
-        <div className="my-5 relative bg-gray-500 w-3/4 h-8 m-auto rounded-lg">
+        <div className="my-3 relative bg-gray-500 w-2/4 h-4 m-auto rounded-lg">
           <div
             className={`absolute h-full bg-orange-300 rounded-lg ${
               scrollPosition ? "animate-[progress60_3s_forwards]" : ""
@@ -57,7 +57,7 @@ function Skills() {
       </div>
       <div>
         <div className="text-center">React</div>
-        <div className="my-5 relative bg-gray-500 w-3/4 h-8 m-auto rounded-lg">
+        <div className="my-3 relative bg-gray-500 w-2/4 h-4 m-auto rounded-lg">
           <div
             className={`absolute h-full bg-orange-300 rounded-lg ${
               scrollPosition ? "animate-[progress50_3s_forwards]" : ""
@@ -67,7 +67,7 @@ function Skills() {
       </div>
       <div>
         <div className="text-center">Git/GitHub</div>
-        <div className="my-5 relative bg-gray-500 w-3/4 h-8 m-auto rounded-lg">
+        <div className="my-3 relative bg-gray-500 w-2/4 h-4 m-auto rounded-lg">
           <div
             className={`absolute h-full bg-orange-300 rounded-lg ${
               scrollPosition ? "animate-[progress30_3s_forwards]" : ""
@@ -77,7 +77,7 @@ function Skills() {
       </div>
       <div>
         <div className="text-center">Tailwind</div>
-        <div className="my-5 relative bg-gray-500 w-3/4 h-8 m-auto rounded-lg">
+        <div className="my-3 relative bg-gray-500 w-2/4 h-4 m-auto rounded-lg">
           <div
             className={`absolute h-full bg-orange-300 rounded-lg ${
               scrollPosition ? "animate-[progress30_3s_forwards]" : ""

@@ -3,7 +3,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 function Header() {
   const [nav, setNav] = useState(false);
 
-  let hamburger = document.querySelector(".hamburgerMenu");
   let open = false;
   function openList() {
     let openMenu = document.querySelector(".menuList");
@@ -23,13 +22,12 @@ function Header() {
     // console.log(openMenu.style.transfor);
   }
   window.addEventListener("scroll", () => {
-    if (window.scrollY != 0) {
+    if (window.scrollY !== 0) {
       setNav(true);
     } else if (window.scrollY === 0) {
       setNav(false);
     }
   });
-
   return (
     <div className="relative">
       <div
